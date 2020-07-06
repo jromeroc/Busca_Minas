@@ -1,0 +1,26 @@
+# Busca minas con matrices
+Juega buscaminas indicando la coordenada que vas descubrir.
+
+### Requisitos 🔧
+- [Python](https://nodejs.org/es/)
+
+
+#### Ejecución del script
+- Asigna la primera matriz a la variable A
+- Asigna la segunda matriz a la variable B
+- Ejecuta el script y mira el resultado.
+'node producto.js'
+
+### Sobre este script :fa-file-code-o:
+Recuerda que para poder hacer la multiplicación de matrices las columnas de la primera matriz deben ser iguales a la catidad de filas de la segunda matriz.
+
+Programado con javascript usando el entorno nodejs para ver los resultados por la terminal.
+
+Reto de matrices en Platzi Master.
+
+#### Imagenes
+##### Matrices
+![](https://raw.githubusercontent.com/jromeroc/ProductoMatriz/master/src/matriz.png)
+
+##### Resultado
+![](https://raw.githubusercontent.com/jromeroc/ProductoMatriz/master/src/result.png)
