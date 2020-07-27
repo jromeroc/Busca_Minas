@@ -35,17 +35,29 @@ def create_matriz():
     for i in range(0, rows):
         grid.append([])
         for j in range(0, cols):
-                grid[i].append([])
-                val = random.choice((0, 1))
-                grid[i][j] = val
+            grid[i].append([])
+            val = random.choice((0, 1))
+            grid[i][j] = val
+    print(grid)
     return grid
 
 def view_grid(grid):
+    encabezado = "C/F"
+    
+    for x in range(0,len(grid)):
+        encabezado = encabezado+str(x)
+    print(encabezado)
+
     for i in range(len(grid)):
         line = ''
         for j in range(len(grid[i])):
-            line += "0" if j else 'X'
-        print(str(i)+" "+line)
+            
+            if grid[i][j]:
+                line += "1"
+            else:
+                line += "0"
+
+        print(str(i)+"  "+line)
 
 def start_game(grid):
     view_grid(grid)
